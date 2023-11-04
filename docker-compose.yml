@@ -67,6 +67,8 @@ services:
       dockerfile: Dockerfile
     environment:
       KAFKA_BROKER: kafka:19092 # since we are on the same network, we will use the internal endpoint
+    depends_on:
+      kafka:
+        condition: service_healthy
     networks:
       - kafka-network
-      -
