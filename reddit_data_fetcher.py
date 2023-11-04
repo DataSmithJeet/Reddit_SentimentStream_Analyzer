@@ -3,7 +3,7 @@ from confluent_kafka import Producer
 
 # Reddit API credentials
 reddit_client_id = "PDkp4oGyNlOnp9iJc4NabQ"
-reddit_client_secret = "4an4PPK_ZqNKN9SLYJy8qh-kKT6_kQ"
+reddit_client_secret = ""
 reddit_user_agent = "data-analysis:PDkp4oGyNlOnp9iJc4NabQ:v1.0(by /u/DataSmithJeet)"
 
 # Kafka producer configuration
