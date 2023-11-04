@@ -1,0 +1,53 @@
+#Ignore IDE_Specific files
+# Ignore compiled files
+*.class
+*.war
+*.jar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.swp
+
+# Ignore target directories
+/target/
+/out/
+/build/
+
+# Ignore IDE-specific files and directories
+/.idea/
+/.vscode/
+/.project
+/.classpath
+/.settings/
+/.iml
+
+# Ignore Node.js dependencies
+/node_modules/
+
+# Ignore Python virtual environments
+/.venv/
+/.pytest_cache/
+/__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore configuration files with sensitive information
+.env
+config.json
+
+# Ignore user-specific files
+.gitconfig
+.editorconfig
