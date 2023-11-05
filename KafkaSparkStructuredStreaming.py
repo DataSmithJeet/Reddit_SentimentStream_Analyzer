@@ -1,14 +1,14 @@
-from pyspark import SparkSession
+from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType
 from pyspark.sql.functions import from_json, col
 
 schema = StructType([
-    StructField("title", StringType(), True),
-    StructField("score", StringType(), True),
-    StructField("id", StringType(), True),
-    StructField("url", StringType(), True),
-    StructField("comms_num", StringType(), True),
-    StructField("created", StringType(), True)
+    StructField("title", StringType(), False),
+    StructField("score", StringType(), False),
+    StructField("id", StringType(), False),
+    StructField("url", StringType(), False),
+    StructField("comms_num", StringType(), False),
+    StructField("created", StringType(), False)
 ])
 
 # Create a SparkSession

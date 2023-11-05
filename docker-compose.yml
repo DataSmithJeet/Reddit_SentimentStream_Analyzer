@@ -21,6 +21,7 @@ services:
 
   kafka:
     image: confluentinc/cp-kafka:7.3.2
+    container_name: kafka
     ports:
       - "9092:9092"
       - "29092:29092"
@@ -49,7 +50,7 @@ services:
       - kafka-network
 
   spark:
-    image: 'docker.io/bitnami/spark:3'
+    image: bitnami/spark:3
     container_name: spark_master
     hostname: spark_master
     user: root
