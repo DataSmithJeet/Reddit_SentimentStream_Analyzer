@@ -5,7 +5,7 @@
 # docker exec -it kafka /bin/bash
 # cd  /bin/
 # Run the below script to see the data in the topic
-# ./kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit_data_stream --from-beginning
+# ./kafka-console-consumer --bootstrap-server localhost:9092 --topic reddit_data_topic --from-beginning
 
 
 # how to run the spark job
